@@ -11,6 +11,9 @@ import ClassComponentPage from './pages/ClassComponentPage';
 import FunctionComponentPage from './pages/FunctionComponentPage';
 // import HomePage from './pages/HomePage';
 import UserPage from './pages/UserPage';
+import ReduxPage from './pages/ReduxPage';
+
+// import store from './store/'
 
 const name = 'React'
 const obj = {
@@ -54,9 +57,18 @@ const jsx = (
     <FunctionComponentPage></FunctionComponentPage>
     {/* <HomePage></HomePage> */}
     <UserPage></UserPage>
+    <ReduxPage></ReduxPage>
   </div>
 )
 ReactDOM.render(jsx, document.getElementById('root'));
+
+/* const render = () => {
+  ReactDOM.render(jsx, document.getElementById('root'));
+
+}
+store.subscribe(render) */
+
+
 // ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

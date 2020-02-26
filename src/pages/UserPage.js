@@ -3,9 +3,7 @@ import Layout from './Layout'
 
 export class UserPage extends Component {
 
-  constructor(props) {
-    super(props)
-  }
+
 
   render() {
     return (

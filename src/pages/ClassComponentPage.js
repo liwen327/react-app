@@ -9,7 +9,7 @@ export default class ClassComponentPage extends Component {
     }
   }
   componentDidMount() {
-    console.log('new Date:', new Date());
+    // console.log('new Date:', new Date());
 
     this.timer = setInterval(() => {
       this.setState({

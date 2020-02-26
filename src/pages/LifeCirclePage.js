@@ -11,7 +11,7 @@ export default class lifeCirclePage extends Component {
   constructor(props) {
     super(props)
     this.state = { count: 0 }
-    console.log('constructor');
+    // console.log('constructor');
 
   }
   /* componentWillMount() {
@@ -25,7 +25,7 @@ export default class lifeCirclePage extends Component {
 
   } */
   componentDidMount() {
-    console.log('componentDidMount');
+    // console.log('componentDidMount');
 
   }
   render() {
