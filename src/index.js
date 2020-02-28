@@ -6,9 +6,9 @@ import styles from './index.module.css'
 /* import App from './App';
 import * as serviceWorker from './serviceWorker'; */
 import SetState from './pages/setState.js'
-import LifeCirclePage from './pages/LifeCirclePage.js'
+/* import LifeCirclePage from './pages/LifeCirclePage.js'
 import ClassComponentPage from './pages/ClassComponentPage';
-import FunctionComponentPage from './pages/FunctionComponentPage';
+import FunctionComponentPage from './pages/FunctionComponentPage'; */
 // import HomePage from './pages/HomePage';
 import UserPage from './pages/UserPage';
 import ReduxPage from './pages/ReduxPage';
@@ -52,9 +52,9 @@ const jsx = (
     {/* <img className={styles.logo} src={logo} alt="img" /> */}
     <SetState></SetState>
     <App></App>
-    <LifeCirclePage></LifeCirclePage>
+    {/* <LifeCirclePage></LifeCirclePage>
     <ClassComponentPage></ClassComponentPage>
-    <FunctionComponentPage></FunctionComponentPage>
+    <FunctionComponentPage></FunctionComponentPage> */}
     {/* <HomePage></HomePage> */}
     <UserPage></UserPage>
     <ReduxPage></ReduxPage>

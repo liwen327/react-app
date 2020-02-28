@@ -14,13 +14,16 @@ export default class setState extends Component {
       },
       () => {
         console.log('counter同步====', this.state.counter);
-      })
-    // console.log('counter不同步====', this.state.counter);//不同步，如果不用setTimout 和setState加调的话
+      }
+    )
+    //console.log('counter不同步====', this.state.counter);//不同步，如果不用setTimout 和setState回调的话
 
   }
 
   setCounter = () => {
     //setState在setTimout和原生事件中是同步的
+    /* this.changeValue(1);
+    this.changeValue(2); */
     setTimeout(() => {
       this.changeValue(1);
       this.changeValue(2);  //两个changeValue都运行所以一共是加3 ，先加1，再加2
@@ -28,9 +31,9 @@ export default class setState extends Component {
     }, 1000)
     // console.log('this.state.counter====', this.state.counter);
   }
-  componentDidMount() {
+  /* componentDidMount() {
     document.getElementById("test").addEventListener('click', this.setCounter)
-  }
+  } */
   render() {
     const { counter } = this.state
     return (
