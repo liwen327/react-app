@@ -17,13 +17,9 @@ class MyFormPage extends Component {
 
       } else {
         console.log('success:', values);
-
       }
     })
-
   }
-
-
   render() {
     console.log('props:', this.props);
     const { getFieldDecorator } = this.props;
