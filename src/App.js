@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
+import ContextPage from './pages/ContextPage';
+import ReduxPage from './pages/ReduxPage';
+// import ConsumerPage from './pages/ConsumerPage';
 
-import DialogPage from './pages/DialogPage';
-import MyFormPage from './pages/MyFormPage'
-// import FormPage2 from './pages/FormPage2';
-// import FormPage from './pages/FormPage';
+
 
 
 
@@ -14,11 +14,10 @@ import MyFormPage from './pages/MyFormPage'
 function App() {
   return (
     <div className="App">
-      {/* <HocPage></HocPage> */}
-      {/* <FormPage></FormPage> */}
-      {/* <FormPage2></FormPage2> */}
-      <MyFormPage></MyFormPage>
-      <DialogPage></DialogPage>
+      <ContextPage></ContextPage>
+      {/* <ConsumerPage></ConsumerPage> */}
+      {/* redux学习 */}
+      <ReduxPage></ReduxPage>
     </div>
   );
 }

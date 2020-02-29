@@ -60,3 +60,13 @@
   transform: translate(50%,50%);
   text-align: center;
 }
+
+.border{
+  border:solid 1px red;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
