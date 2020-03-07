@@ -28,7 +28,7 @@ export function createStore(reducer, enhancer) {
 }
 
 //中间件applyMiddleware 是加强dispatch的
-function applyMiddleware(...middlewares) {
+export function applyMiddleware(...middlewares) {
   return createStore => (...args) => {
     const store = createStore(...args);  //这里的args是createStore的参数（相当于reducer）
 

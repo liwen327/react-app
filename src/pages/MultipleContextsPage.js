@@ -9,7 +9,7 @@ export default function MultipleContextsPage(props) {
       <ThemeConsumer>
         {theme => (
           <UserConsumer>
-            {user => <div className={theme.themeColor}>{user.name}</div>}
+            {user => <div className={theme.themeColor}>user:{user.name}</div>}
           </UserConsumer>
         )}
       </ThemeConsumer>

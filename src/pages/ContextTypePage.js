@@ -16,6 +16,7 @@ class ContextTypePage extends Component {
   }
 }
 
+//只能创建一个context上下文，如果定义多个，后面的会覆盖前面的。
 ContextTypePage.contextType = ThemeContext; //第二种写法，跟第一种一样都是挂到ContextTypePage上的
 
 export default ContextTypePage;

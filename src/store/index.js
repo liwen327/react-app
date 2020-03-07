@@ -1,7 +1,8 @@
-import { createStore, applyMiddleware } from 'redux'
+// import { createStore, applyMiddleware } from 'redux'
+
 /* import logger from 'redux-logger'
 import thunk from 'redux-thunk' */
-// import { createStore } from '../components/kRedux'
+import { createStore, applyMiddleware } from '../components/kRedux'
 
 //定义state初始化和修改规则，reducer是一个纯函数
 function counterReducer(state = 0, action) {
